@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         // 플래그먼트 생성
         map_fragment = new MapFragment();
         info_fragment = new InfoFragment();
